@@ -1,7 +1,7 @@
 <template>
   <header class="main-header">
       <nuxt-link to="/"><li class="list-items">Locations</li></nuxt-link>
-      <nuxt-link to="/about"><li class="list-items">About me</li></nuxt-link>
+      <!-- <nuxt-link to="/about"><li class="list-items">About me</li></nuxt-link> -->
   </header>
 </template>
 
