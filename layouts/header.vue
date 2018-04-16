@@ -1,7 +1,7 @@
 <template>
   <header class="main-header">
-      <nuxt-link to="/"><li class="list-items">Locations</li></nuxt-link>
-      <!-- <nuxt-link to="/about"><li class="list-items">About me</li></nuxt-link> -->
+      <nuxt-link to="/" class="list-items">Locations</nuxt-link>
+      <nuxt-link to="/about" class="list-items">About me</nuxt-link>
   </header>
 </template>
 
@@ -17,11 +17,11 @@
     text-decoration: none;
     color: #ffffff;
     font-weight: 800;
-    .list-items {
-      margin: 0px 20px;
-      list-style-type: none;
-      text-decoration: none;
-    }
+  }
+  .list-items {
+    margin: 0px 20px;
+    list-style-type: none;
+    text-decoration: none;
   }
 }
 </style>
